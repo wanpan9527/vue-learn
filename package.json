@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "number-flip": "^1.0.4",
+    "number-flip": "^1.0.8",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
