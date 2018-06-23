@@ -2302,6 +2302,14 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
+gelerator@^1.1.50:
+  version "1.1.50"
+  resolved "https://registry.npmjs.org/gelerator/-/gelerator-1.1.50.tgz#bafae969232aabb86e46fcb6144fd9051a8240ac"
+  dependencies:
+    lodash.iselement "^4.1.1"
+    lodash.isobject "^3.0.2"
+    lodash.isstring "^4.0.1"
+
 get-caller-file@^1.0.1:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/get-caller-file/download/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
@@ -3089,6 +3097,18 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "http://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
+lodash.iselement@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/lodash.iselement/-/lodash.iselement-4.1.1.tgz#f678d4f6f3a964f9ec7f115f2546f3e4a0ba82ca"
+
+lodash.isobject@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/lodash.isobject/-/lodash.isobject-3.0.2.tgz#3c8fb8d5b5bf4bf90ae06e14f2a530a4ed935e1d"
+
+lodash.isstring@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "http://registry.npm.taobao.org/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -3549,6 +3569,12 @@ nth-check@~1.0.1:
 num2fraction@^1.2.2:
   version "1.2.2"
   resolved "http://registry.npm.taobao.org/num2fraction/download/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
+
+number-flip@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/number-flip/-/number-flip-1.0.8.tgz#a9116bae11a0fa52429140f356045fc8aa94c75b"
+  dependencies:
+    gelerator "^1.1.50"
 
 number-is-nan@^1.0.0:
   version "1.0.1"
